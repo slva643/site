@@ -123,6 +123,7 @@ ul li a {
 }
 
 .menu { 
+   
     padding-left: 50px;
     background-color: var(--cor2);
     height: 3vh;
@@ -131,6 +132,11 @@ ul li a {
     border-bottom-right-radius: 5px ;
     border-bottom-left-radius: 5px;
    
+}
+.menu ul {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
 }
 
 .menu ul a {
